@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error: Passport Matching Error</title>
+    <style>
+        {% load static %}
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            /* Replace 'passport_background6.jpeg' with your image file path */
+            background-image: url('{% static "passport_background2.jpeg" %}');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .content {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .h1 {
+            color: #333;
+        }
+
+        .p{
+            color: #555;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1><b>Error: Passport Number Mismatch</b></h1>
+        <p><b>The passport number you entered does not match our records.</b></p>
+
+</div>
+    </div>
+</body>
+</html>

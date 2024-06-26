@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Error: Passport Name or Surname Mismatch</title>
+<style>
+     {% load static %}
+   body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            /* Replace 'passport_background6.jpeg' with your image file path */
+            background-image: url('{% static "passport_background2.jpeg" %}');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    .container {
+        max-width: 600px;
+        margin: 100px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        text-align: center;
+    }
+    h1 {
+        color: #ff6347;
+    }
+    p {
+        color: #333;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1><b>Error: Passport Name or Surname Mismatch</b></h1>
+    <p><b>We're sorry, but the name or surname provided does not match the information in your passport.</b></p>
+</div>
+
+</body>
+</html>
